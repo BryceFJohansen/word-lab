@@ -1,0 +1,124 @@
+{
+  "checks": [
+    {
+      "browser": "chromium",
+      "version": "156.0.8078.4",
+      "tab": "Wordle",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "chromium",
+      "version": "156.0.8078.4",
+      "tab": "Wordle",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "chromium",
+      "version": "156.0.8078.4",
+      "tab": "Solver",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "chromium",
+      "version": "156.0.8078.4",
+      "tab": "Solver",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "157.0",
+      "tab": "Wordle",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "157.0",
+      "tab": "Wordle",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "157.0",
+      "tab": "Solver",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "firefox",
+      "version": "157.0",
+      "tab": "Solver",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "webkit",
+      "version": "27.2",
+      "tab": "Wordle",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "webkit",
+      "version": "27.2",
+      "tab": "Wordle",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "webkit",
+      "version": "27.2",
+      "tab": "Solver",
+      "theme": "light",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    },
+    {
+      "browser": "webkit",
+      "version": "27.2",
+      "tab": "Solver",
+      "theme": "dark",
+      "violations": [],
+      "incomplete": [
+        "color-contrast"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "testedAt": "2026-10-10T04:38:43.774Z",
+  "browser": "156.0.8078.4",
+  "origin": "http://127.0.0.1:4175",
+  "productionBuild": true,
+  "pageErrors": [],
+  "externalRequests": [],
+  "startupDictionaries": [
+    "http://127.0.0.1:4175/assets/5-DfSdKHsI.json"
+  ],
+  "passed": [
+    "game restoration",
+    "selected-length-only startup loading",
+    "real production module worker",
+    "multi-row solver with five recommendations",
+    "twelve-letter mobile solver",
+    "twelve-letter mobile game",
+    "dark theme",
+    "no horizontal overflow"
+  ]
+}

@@ -1,0 +1,5 @@
+"strategy","attempted","solved","failures","solvePercentage","averageSolved","averagePenalized","medianSolved","maximumGuesses","averageComputationMs","totalDurationMs","exactSteps","approximateSteps"
+"frequency","25","23","2","92","3.8260869565217392","4.08","4","6","35.472877360000005","887.53301","100","0"
+"entropy","25","25","0","100","3.76","3.76","4","6","153.77764056","3844.903127","66","28"
+"expected","25","25","0","100","3.6","3.6","4","5","174.40337536000007","4360.625279999999","65","25"
+"minimax","25","25","0","100","3.84","3.84","4","6","159.35888059999996","3984.441844000001","71","25"

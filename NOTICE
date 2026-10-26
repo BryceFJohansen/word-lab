@@ -1,0 +1,15 @@
+Word Lab application code and original documentation are licensed under the
+MIT License; see LICENSE. Bundled third-party dictionary data and its generated
+derivatives retain the separate notices and terms below.
+
+Word Lab dictionary data is a filtered, modified derivative of SCOWL 2020.12.07.
+The collective work is Copyright 2000-2018 by Kevin Atkinson as well as the
+component copyrights reproduced in data/sources/scowl/Copyright and
+public/DICTIONARY-LICENSE.txt. Preserve those complete notices on redistribution.
+
+UK Advanced Cryptics Dictionary:
+Copyright (c) J Ross Beresford 1993-1999. All Rights Reserved.
+The full verbatim combined copyright document accompanies the application.
+
+SCOWL, ENABLE, Moby, 12Dicts, WordNet, VarCon and Ispell contributors are credited
+in that document. This application is not endorsed by those contributors.

@@ -1,0 +1,200 @@
+{
+  "environment": {
+    "cpu": "AMD Ryzen 7 2700X Eight-Core Processor",
+    "logicalCpus": 16,
+    "totalMemoryBytes": 16725401600,
+    "platform": "linux",
+    "node": "v24.21.0"
+  },
+  "notes": "Single process, single runs. OS disk cache not flushed. Heap deltas include GC noise. Worker responsiveness is measured by Playwright (tests/e2e/word-lab.spec.ts).",
+  "results": [
+    {
+      "length": 3,
+      "valid": 1151,
+      "answers": 1149,
+      "candidates": 825,
+      "loadMs": 6.978012000000007,
+      "filterMs": 1.5605589999999836,
+      "heapDeltaBytes": 1465112,
+      "rankings": [
+        {
+          "elapsedMs": 4.496856000000008,
+          "exact": true,
+          "evaluatedGuesses": 1151,
+          "totalGuesses": 1151,
+          "evaluatedAnswers": 1149,
+          "totalAnswers": 1149,
+          "strategy": "frequency"
+        },
+        {
+          "elapsedMs": 269.399142,
+          "exact": true,
+          "evaluatedGuesses": 1151,
+          "totalGuesses": 1151,
+          "evaluatedAnswers": 1149,
+          "totalAnswers": 1149,
+          "strategy": "entropy"
+        },
+        {
+          "elapsedMs": 249.82421200000005,
+          "exact": true,
+          "evaluatedGuesses": 1151,
+          "totalGuesses": 1151,
+          "evaluatedAnswers": 1149,
+          "totalAnswers": 1149,
+          "strategy": "expected"
+        },
+        {
+          "elapsedMs": 251.90100099999995,
+          "exact": true,
+          "evaluatedGuesses": 1151,
+          "totalGuesses": 1151,
+          "evaluatedAnswers": 1149,
+          "totalAnswers": 1149,
+          "strategy": "minimax"
+        }
+      ]
+    },
+    {
+      "length": 5,
+      "valid": 11193,
+      "answers": 11184,
+      "candidates": 5401,
+      "loadMs": 8.202003999999988,
+      "filterMs": 6.740178000000014,
+      "heapDeltaBytes": 9226536,
+      "rankings": [
+        {
+          "elapsedMs": 27.573145000000068,
+          "exact": true,
+          "evaluatedGuesses": 11193,
+          "totalGuesses": 11193,
+          "evaluatedAnswers": 11184,
+          "totalAnswers": 11184,
+          "strategy": "frequency"
+        },
+        {
+          "elapsedMs": 76.03460599999994,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 11193,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 11184,
+          "strategy": "entropy"
+        },
+        {
+          "elapsedMs": 70.55528700000013,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 11193,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 11184,
+          "strategy": "expected"
+        },
+        {
+          "elapsedMs": 86.33304900000007,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 11193,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 11184,
+          "strategy": "minimax"
+        }
+      ]
+    },
+    {
+      "length": 8,
+      "valid": 37175,
+      "answers": 37164,
+      "candidates": 29,
+      "loadMs": 25.136248999999907,
+      "filterMs": 15.728247999999894,
+      "heapDeltaBytes": 52251352,
+      "rankings": [
+        {
+          "elapsedMs": 92.14338900000007,
+          "exact": true,
+          "evaluatedGuesses": 37175,
+          "totalGuesses": 37175,
+          "evaluatedAnswers": 37164,
+          "totalAnswers": 37164,
+          "strategy": "frequency"
+        },
+        {
+          "elapsedMs": 193.75528299999996,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 37175,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 37164,
+          "strategy": "entropy"
+        },
+        {
+          "elapsedMs": 162.62581899999986,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 37175,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 37164,
+          "strategy": "expected"
+        },
+        {
+          "elapsedMs": 167.46634199999994,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 37175,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 37164,
+          "strategy": "minimax"
+        }
+      ]
+    },
+    {
+      "length": 12,
+      "valid": 18796,
+      "answers": 18792,
+      "candidates": 4,
+      "loadMs": 8.87202400000001,
+      "filterMs": 7.850165999999945,
+      "heapDeltaBytes": -7754240,
+      "rankings": [
+        {
+          "elapsedMs": 93.394229,
+          "exact": true,
+          "evaluatedGuesses": 18796,
+          "totalGuesses": 18796,
+          "evaluatedAnswers": 18792,
+          "totalAnswers": 18792,
+          "strategy": "frequency"
+        },
+        {
+          "elapsedMs": 194.8760679999998,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 18796,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 18792,
+          "strategy": "entropy"
+        },
+        {
+          "elapsedMs": 163.45935499999996,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 18796,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 18792,
+          "strategy": "expected"
+        },
+        {
+          "elapsedMs": 197.76110199999994,
+          "exact": false,
+          "evaluatedGuesses": 180,
+          "totalGuesses": 18796,
+          "evaluatedAnswers": 1200,
+          "totalAnswers": 18792,
+          "strategy": "minimax"
+        }
+      ]
+    }
+  ]
+}

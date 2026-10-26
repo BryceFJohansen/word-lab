@@ -1,0 +1,929 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-10-10T04:39:00.936Z",
+  "environment": {
+    "node": "v24.21.0",
+    "platform": "linux",
+    "arch": "x64",
+    "cpu": "AMD Ryzen 7 2700X Eight-Core Processor",
+    "logicalCpus": 16,
+    "totalMemoryBytes": 16725401600
+  },
+  "settings": {
+    "length": 3,
+    "spelling": "us",
+    "difficulty": "common"
+  },
+  "maxAttempts": 6,
+  "sample": {
+    "mode": "sample",
+    "seed": 2026,
+    "answers": [
+      "air",
+      "arm",
+      "are",
+      "par",
+      "out",
+      "kin",
+      "ohm",
+      "rug",
+      "cur",
+      "wot"
+    ]
+  },
+  "dictionary": {
+    "valid": 1141,
+    "answers": 480,
+    "sha256": "ea5ac95aa55f8b198762ac054cc8f631b416041c6fdeab45fc804add915787e7",
+    "loadMs": 6.392842999999999
+  },
+  "search": {
+    "pairBudget": 2000000,
+    "shortlistSize": 180,
+    "sampleSize": 1200,
+    "forceExact": true,
+    "cache": "Per-strategy candidate-set decisions, shared across puzzles; bounded at 20,000 entries."
+  },
+  "failureConvention": "Unsolved puzzles cost maxAttempts + 1 in averagePenalized; medianSolved and averageSolved exclude failures.",
+  "results": [
+    {
+      "strategy": "entropy",
+      "puzzles": [
+        {
+          "answer": "air",
+          "solved": true,
+          "guesses": 3,
+          "elapsedMs": 140.089607,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 30,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ers",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 30,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 30,
+                "totalAnswers": 30,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "air",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "arm",
+          "solved": true,
+          "guesses": 5,
+          "elapsedMs": 6.274841000000009,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 30,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ers",
+              "feedback": [
+                0,
+                2,
+                0
+              ],
+              "candidatesBefore": 30,
+              "candidatesAfter": 4,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 30,
+                "totalAnswers": 30,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "arc",
+              "feedback": [
+                2,
+                2,
+                0
+              ],
+              "candidatesBefore": 4,
+              "candidatesAfter": 2,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 4,
+                "totalAnswers": 4,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ark",
+              "feedback": [
+                2,
+                2,
+                0
+              ],
+              "candidatesBefore": 2,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 2,
+                "totalAnswers": 2,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "arm",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "are",
+          "solved": true,
+          "guesses": 3,
+          "elapsedMs": 1.54430499999998,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 30,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ers",
+              "feedback": [
+                1,
+                2,
+                0
+              ],
+              "candidatesBefore": 30,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 30,
+                "totalAnswers": 30,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "are",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "par",
+          "solved": true,
+          "guesses": 3,
+          "elapsedMs": 24.695289000000002,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                2,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 84,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "pry",
+              "feedback": [
+                2,
+                1,
+                0
+              ],
+              "candidatesBefore": 84,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 84,
+                "totalAnswers": 84,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "par",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "out",
+          "solved": true,
+          "guesses": 3,
+          "elapsedMs": 3.8091360000000236,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                2,
+                0,
+                2
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 2,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "opt",
+              "feedback": [
+                2,
+                0,
+                2
+              ],
+              "candidatesBefore": 2,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 2,
+                "totalAnswers": 2,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "out",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "kin",
+          "solved": true,
+          "guesses": 6,
+          "elapsedMs": 65.68593199999998,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 190,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "gie",
+              "feedback": [
+                0,
+                2,
+                0
+              ],
+              "candidatesBefore": 190,
+              "candidatesAfter": 36,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 190,
+                "totalAnswers": 190,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "pwn",
+              "feedback": [
+                0,
+                0,
+                2
+              ],
+              "candidatesBefore": 36,
+              "candidatesAfter": 5,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 36,
+                "totalAnswers": 36,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ads",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 5,
+              "candidatesAfter": 3,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 5,
+                "totalAnswers": 5,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "bok",
+              "feedback": [
+                0,
+                0,
+                1
+              ],
+              "candidatesBefore": 3,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 3,
+                "totalAnswers": 3,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "kin",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "ohm",
+          "solved": true,
+          "guesses": 4,
+          "elapsedMs": 9.831380000000024,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                2,
+                0,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 13,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "dew",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 13,
+              "candidatesAfter": 5,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 13,
+                "totalAnswers": 13,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "fir",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 5,
+              "candidatesAfter": 2,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 5,
+                "totalAnswers": 5,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ohm",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 2,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 2,
+                "totalAnswers": 2,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "rug",
+          "solved": true,
+          "guesses": 5,
+          "elapsedMs": 7.6743620000000305,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 190,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "gie",
+              "feedback": [
+                1,
+                0,
+                0
+              ],
+              "candidatesBefore": 190,
+              "candidatesAfter": 8,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 190,
+                "totalAnswers": 190,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "bah",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 8,
+              "candidatesAfter": 5,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 8,
+                "totalAnswers": 8,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "ard",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 5,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 5,
+                "totalAnswers": 5,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "rug",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "cur",
+          "solved": true,
+          "guesses": 5,
+          "elapsedMs": 18.855092000000013,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 190,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "gie",
+              "feedback": [
+                0,
+                0,
+                0
+              ],
+              "candidatesBefore": 190,
+              "candidatesAfter": 45,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 190,
+                "totalAnswers": 190,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "bus",
+              "feedback": [
+                0,
+                2,
+                0
+              ],
+              "candidatesBefore": 45,
+              "candidatesAfter": 14,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 45,
+                "totalAnswers": 45,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "rum",
+              "feedback": [
+                1,
+                2,
+                0
+              ],
+              "candidatesBefore": 14,
+              "candidatesAfter": 2,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 14,
+                "totalAnswers": 14,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "cur",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 2,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 2,
+                "totalAnswers": 2,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        },
+        {
+          "answer": "wot",
+          "solved": true,
+          "guesses": 3,
+          "elapsedMs": 5.721612999999991,
+          "trace": [
+            {
+              "guess": "oat",
+              "feedback": [
+                1,
+                0,
+                2
+              ],
+              "candidatesBefore": 480,
+              "candidatesAfter": 11,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 480,
+                "totalAnswers": 480,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "pwn",
+              "feedback": [
+                0,
+                1,
+                0
+              ],
+              "candidatesBefore": 11,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 11,
+                "totalAnswers": 11,
+                "strategy": "entropy"
+              }
+            },
+            {
+              "guess": "wot",
+              "feedback": [
+                2,
+                2,
+                2
+              ],
+              "candidatesBefore": 1,
+              "candidatesAfter": 1,
+              "search": {
+                "exact": true,
+                "evaluatedGuesses": 1141,
+                "totalGuesses": 1141,
+                "evaluatedAnswers": 1,
+                "totalAnswers": 1,
+                "strategy": "entropy"
+              }
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "attempted": 10,
+        "solved": 10,
+        "failures": 0,
+        "solvePercentage": 100,
+        "averageSolved": 4,
+        "averagePenalized": 4,
+        "failurePenalty": 7,
+        "medianSolved": 3.5,
+        "maximumGuesses": 6,
+        "distribution": {
+          "3": 5,
+          "4": 1,
+          "5": 3,
+          "6": 1
+        },
+        "averageComputationMs": 28.418155700000007,
+        "totalDurationMs": 284.41765699999996,
+        "worstAnswers": [
+          {
+            "answer": "kin",
+            "solved": true,
+            "guesses": 6
+          },
+          {
+            "answer": "arm",
+            "solved": true,
+            "guesses": 5
+          },
+          {
+            "answer": "cur",
+            "solved": true,
+            "guesses": 5
+          },
+          {
+            "answer": "rug",
+            "solved": true,
+            "guesses": 5
+          },
+          {
+            "answer": "ohm",
+            "solved": true,
+            "guesses": 4
+          },
+          {
+            "answer": "air",
+            "solved": true,
+            "guesses": 3
+          },
+          {
+            "answer": "are",
+            "solved": true,
+            "guesses": 3
+          },
+          {
+            "answer": "out",
+            "solved": true,
+            "guesses": 3
+          },
+          {
+            "answer": "par",
+            "solved": true,
+            "guesses": 3
+          },
+          {
+            "answer": "wot",
+            "solved": true,
+            "guesses": 3
+          }
+        ],
+        "exactSteps": 40,
+        "approximateSteps": 0
+      },
+      "cachedDecisions": 27
+    }
+  ]
+}

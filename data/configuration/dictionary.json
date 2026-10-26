@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "commonMaxLevel": 35,
+  "standardMaxLevel": 60,
+  "validMaxLevel": 80,
+  "minLength": 3,
+  "maxLength": 12,
+  "dialects": { "english": 3, "american": 1, "british": 2 }
+}

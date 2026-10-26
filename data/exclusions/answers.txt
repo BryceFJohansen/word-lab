@@ -1,0 +1,3 @@
+# Project-maintained additions to SCOWL's four taboo lists.
+# One lowercase word per line. Excludes random answers only; guesses stay valid.
+# Add inflections explicitly. This is a maintainable blocklist, not a guarantee.
